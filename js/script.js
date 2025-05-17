@@ -465,6 +465,7 @@ monogatari.script ({
 		'show scene rua with fadeIn 2s',
 		'show character l feliz',
 		'Seu mundo se expande. Sem fugir da realidade, você começa a moldar o próprio futuro.',
+		'centered <h3>FINAL 5 DE 9 - Escolhas com Futuro</h3>Manter os próprios valores diante da pressão social demonstra autonomia e maturidade emocional. A literatura aponta que jovens com forte senso de identidade, autoestima e envolvimento em atividades extracurriculares (como debates, cursinhos e projetos sociais) têm menor probabilidade de se envolver com drogas. Isso se relaciona à prevenção primária, que visa fortalecer o senso crítico antes do contato com substâncias.',
 		'end'
 	],
 
@@ -475,6 +476,7 @@ monogatari.script ({
 		'show scene festaEmbacada',
 		'show character l triste',
 		'l Será que dá pra ser certo e ainda assim... sentir que se vive de verdade?',
+		'centered <h3>FINAL 6 DE 9 - Faltava Algo</h3>O distanciamento de influências negativas sem encontrar novas fontes de realização pode gerar vazio existencial e sensação de que “falta algo”. Isso ressalta a importância de promover educação emocional e projetos de vida que valorizem o bem-estar sem depender de estímulos externos artificiais. A prevenção eficaz precisa oferecer alternativas concretas de pertencimento e prazer saudável.',
 		'end'
 	],
 
@@ -519,6 +521,7 @@ monogatari.script ({
 		'show character r feliz at right with fadeIn 2s',
 		'Rafael apresenta um projeto social.',
 		'Palcos, cenas, falas. Lucas descobre outra forma de ser ouvido — sem precisar se destruir. Com o projeto, conquista uma bolsa. O mundo lá fora continua barulhento, mas ele encontrou sua voz.',
+		'centered <h3>FINAL 7 DE 9 - Voz no Palco</h3>Envolver-se com arte, cultura ou projetos sociais é uma forma comprovada de reduzir fatores de risco e fortalecer fatores de proteção ao uso de substâncias. Essas atividades promovem dopamina de maneira natural, sem os riscos neuroquímicos da droga. Além disso, aumentam habilidades de comunicação, autoestima e capacidade de lidar com frustrações — componentes chave na prevenção ao uso abusivo.',
 		'end'
 	],
 
@@ -560,6 +563,7 @@ monogatari.script ({
 		'show scene ruaNoite',
 		'show character l mendigo at center',
 		'O brilho das luzes virou sombra nos olhos. Você agora precisa da droga para sentir qualquer coisa. Os amigos de verdade se afastaram. E você… já não sabe quem é sem a euforia sintética.',
+		'centered <h3>FINAL 8 DE 9 - Voz no Palco</h3>O uso moderado de drogas pode rapidamente evoluir para dependência devido à tolerância farmacológica — necessidade de doses maiores para obter o mesmo efeito. A negação é um dos principais obstáculos ao tratamento, pois o indivíduo acredita estar no controle. A dependência química é uma doença crônica com componente neuroadaptativo, que exige intervenção multidisciplinar para controle e recuperação.',
 		'end'
 	],
 
@@ -575,6 +579,7 @@ monogatari.script ({
 		'show scene entradaParque with fadeIn 2s',
 		'show character l feliz with fadeIn 2s',
 		'Foi preciso tropeçar para enxergar. Mas ele se levanta. E caminha, dessa vez, para longe do abismo.',
+		'centered <h3>FINAL 9 DE 9 - Despertar</h3>A percepção crítica sobre relações tóxicas e ambientes de risco é um passo essencial na prevenção terciária, que visa impedir recaídas e consolidar a mudança de comportamento. Romper com vínculos prejudiciais pode ser doloroso, mas abre espaço para o autoconhecimento e novas oportunidades. A reestruturação dos objetivos de vida é um fator protetivo para manter a abstinência e promover saúde mental.',
 		'end'
 	]
 });

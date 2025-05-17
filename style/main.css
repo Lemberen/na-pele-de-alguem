@@ -107,7 +107,9 @@ button:hover {
 
 /* Style for Centered Text */
 [data-component="centered-dialog"] {
-
+	background-color: rgba(0,0,0,0.5);
+	color: #fff;
+	padding: 25px;
 }
 
 /* Character Images Styles */
