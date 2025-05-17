@@ -97,7 +97,9 @@ button:hover {
 
 /* Text Box styling */
 [data-component="text-box"] {
-
+	display: block;
+	min-height: 15vh;
+	max-height: 25vh;
 }
 
 /* Character Name Style */
