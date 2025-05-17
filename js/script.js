@@ -59,7 +59,7 @@ monogatari.assets ('sounds', {
 
 // Define the videos used in the game.
 monogatari.assets ('videos', {
-	'olhoExpandindo': 'olhoExpandindo.mp4'
+	'pupilaDilatando': 'pupilaDilatando.mp4'
 });
 
 // Define the images used in the game.
@@ -95,7 +95,6 @@ monogatari.assets ('scenes', {
 	'celular_conversa_bianca_4': 'celular_conversa_bianca_4.png',
 	'prova': 'prova.png',
 	'efeitosEcstasy': 'celular_pesquisa.png',
-	'olhoExpandindo': 'olhoExpandindo.gif'
 });
 
 
@@ -254,12 +253,12 @@ monogatari.script ({
 		'show character d preocupado at right with virado',
 		'c Boa garoto! Agora sim vai curtir de verdade.',
 		'Você engole.',
-		'show scene olhoExpandindo',
+		'show scene #000',
+		'show video pupilaDilatando immersive close',
 		// function(){
 		// 	document.querySelector('[data-component="text-box"]').style.opacity='0';
 		// 	return false;
 		// },
-		'wait',
 		'show scene redemoinho',
 		'Euforia. Uma explosão de sensações. Mas por trás da máscara da diversão, germina a semente do desequilíbrio. Ninguém avisa que o paraíso pode cobrar caro a entrada.',
 		'show scene sala_de_estar with fadeIn 2s',
