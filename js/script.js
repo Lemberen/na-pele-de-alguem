@@ -185,7 +185,8 @@ monogatari.characters ({
 
 monogatari.script ({
 	// The game starts here.
-	'Start': [
+	'Português': {
+		'Start': [
 		'Você é Lucas, 17 anos, prestes a terminar o ensino médio.',
 		'Você está em um momento da vida em que as escolhas parecem mais difíceis e o futuro incerto.',
 		'Suas escolhas terão consequências.',
@@ -254,6 +255,10 @@ monogatari.script ({
 		'c Boa garoto! Agora sim vai curtir de verdade.',
 		'Você engole.',
 		'show scene olhoExpandindo',
+		// function(){
+		// 	document.querySelector('[data-component="text-box"]').style.opacity='0';
+		// 	return false;
+		// },
 		'wait',
 		'show scene redemoinho',
 		'Euforia. Uma explosão de sensações. Mas por trás da máscara da diversão, germina a semente do desequilíbrio. Ninguém avisa que o paraíso pode cobrar caro a entrada.',
@@ -563,7 +568,7 @@ monogatari.script ({
 		'show scene ruaNoite',
 		'show character l mendigo at center',
 		'O brilho das luzes virou sombra nos olhos. Você agora precisa da droga para sentir qualquer coisa. Os amigos de verdade se afastaram. E você… já não sabe quem é sem a euforia sintética.',
-		'centered <h3>FINAL 8 DE 9 - Voz no Palco</h3>O uso moderado de drogas pode rapidamente evoluir para dependência devido à tolerância farmacológica — necessidade de doses maiores para obter o mesmo efeito. A negação é um dos principais obstáculos ao tratamento, pois o indivíduo acredita estar no controle. A dependência química é uma doença crônica com componente neuroadaptativo, que exige intervenção multidisciplinar para controle e recuperação.',
+		'centered <h3>FINAL 8 DE 9 - Ilusão de Controle</h3>O uso moderado de drogas pode rapidamente evoluir para dependência devido à tolerância farmacológica — necessidade de doses maiores para obter o mesmo efeito. A negação é um dos principais obstáculos ao tratamento, pois o indivíduo acredita estar no controle. A dependência química é uma doença crônica com componente neuroadaptativo, que exige intervenção multidisciplinar para controle e recuperação.',
 		'end'
 	],
 
@@ -582,4 +587,9 @@ monogatari.script ({
 		'centered <h3>FINAL 9 DE 9 - Despertar</h3>A percepção crítica sobre relações tóxicas e ambientes de risco é um passo essencial na prevenção terciária, que visa impedir recaídas e consolidar a mudança de comportamento. Romper com vínculos prejudiciais pode ser doloroso, mas abre espaço para o autoconhecimento e novas oportunidades. A reestruturação dos objetivos de vida é um fator protetivo para manter a abstinência e promover saúde mental.',
 		'end'
 	]
+	},
+
+	'English': {
+		'Start': []
+	}
 });

@@ -29,7 +29,7 @@ monogatari.settings({
 	'Slots': 10,
 
 	// Change to true for a MultiLanguage GameScreen.
-	'MultiLanguage': false,
+	'MultiLanguage': true,
 
 	// If the 'Multilanguage' setting is set to `true`. This will enable a
 	// language selection screen that will be shown before the asset loading
@@ -148,7 +148,7 @@ monogatari.settings({
 monogatari.preferences ({
 
 	// Initial Language for Multilanguage Games or for the Default GUI Language.
-	'Language': 'English',
+	'Language': 'Português',
 
 	// Initial Volumes from 0.0 to 1.
 	'Volume': {

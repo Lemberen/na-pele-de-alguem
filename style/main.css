@@ -45,12 +45,45 @@ button:hover {
 
 /* Main Menu Styling */
 [data-screen="main"] {
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: skyblue;
+	color: #000;
+	background-image: url('../assets/ui/fundo.png');
+}
 
+[data-component="main-menu"] {
+	margin: 25px 0;
+	position: static;
+	justify-self: center;
+}
+
+[string="Start"] {
+	background-color: #d9b88f;
+	border: 3px solid #8e652f;
+	color: #1c2116;
+	border-radius: 8px;
+	font-weight: bold;
+}
+
+[string="Load"], [string="Settings"], [string="Help"] {
+	display: none;
 }
 
 /* Main Menu Buttons Styling */
 [data-screen="main"] button {
 
+}
+
+.conteudoMenu {
+	display: flex;
+	flex-direction: row;
+}
+
+#titulo {
+	margin-bottom: 0;
+	padding: 5%;
 }
 
 /**
