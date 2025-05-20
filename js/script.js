@@ -185,9 +185,6 @@ monogatari.characters ({
 monogatari.script ({
 	// The game starts here.
 	'Start': [
-	'Você é Lucas, 17 anos, prestes a terminar o ensino médio.',
-	'Você está em um momento da vida em que as escolhas parecem mais difíceis e o futuro incerto.',
-	'Suas escolhas terão consequências.',
 	'show scene festa with fadeIn 2s',
 	// 'show notification Welcome',
 	// {
